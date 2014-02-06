@@ -1,4 +1,1 @@
-pyconau2014
-===========
-
-PyConAU 2014 Website UI
+# User Interface for PyCon Australia 2014 website
