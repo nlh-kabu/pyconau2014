@@ -840,6 +840,281 @@ hr {
 @media only screen and (max-width: 1169px) {
   /* line 122, ../sass/ribs/_mixins.scss */
   .container {
+    width: 900px;
+  }
+  /* line 125, ../sass/ribs/_mixins.scss */
+  .container .one {
+    width: 57px;
+  }
+  /* line 126, ../sass/ribs/_mixins.scss */
+  .container .two {
+    width: 132px;
+  }
+  /* line 127, ../sass/ribs/_mixins.scss */
+  .container .three {
+    width: 207px;
+  }
+  /* line 128, ../sass/ribs/_mixins.scss */
+  .container .four {
+    width: 282px;
+  }
+  /* line 129, ../sass/ribs/_mixins.scss */
+  .container .five {
+    width: 357px;
+  }
+  /* line 130, ../sass/ribs/_mixins.scss */
+  .container .six {
+    width: 432px;
+  }
+  /* line 131, ../sass/ribs/_mixins.scss */
+  .container .seven {
+    width: 507px;
+  }
+  /* line 132, ../sass/ribs/_mixins.scss */
+  .container .eight {
+    width: 582px;
+  }
+  /* line 133, ../sass/ribs/_mixins.scss */
+  .container .nine {
+    width: 657px;
+  }
+  /* line 134, ../sass/ribs/_mixins.scss */
+  .container .ten {
+    width: 732px;
+  }
+  /* line 135, ../sass/ribs/_mixins.scss */
+  .container .eleven {
+    width: 807px;
+  }
+  /* line 136, ../sass/ribs/_mixins.scss */
+  .container .twelve {
+    width: 882px;
+  }
+  /* line 137, ../sass/ribs/_mixins.scss */
+  .container .thirteen {
+    width: 957px;
+  }
+  /* line 138, ../sass/ribs/_mixins.scss */
+  .container .fourteen {
+    width: 1032px;
+  }
+  /* line 139, ../sass/ribs/_mixins.scss */
+  .container .fifteen {
+    width: 1107px;
+  }
+  /* line 140, ../sass/ribs/_mixins.scss */
+  .container .sixteen {
+    width: 1182px;
+  }
+  /* line 141, ../sass/ribs/_mixins.scss */
+  .container .one-third {
+    width: 282px;
+  }
+  /* line 142, ../sass/ribs/_mixins.scss */
+  .container .two-thirds {
+    width: 582px;
+  }
+  /* line 143, ../sass/ribs/_mixins.scss */
+  .container .one-half {
+    width: 432px;
+  }
+  /* line 144, ../sass/ribs/_mixins.scss */
+  .container .one-quarter {
+    width: 207px;
+  }
+  /* line 145, ../sass/ribs/_mixins.scss */
+  .container .three-quarters {
+    width: 657px;
+  }
+  /* line 147, ../sass/ribs/_mixins.scss */
+  .container .offset-by-one {
+    padding-left: 75px;
+  }
+  /* line 148, ../sass/ribs/_mixins.scss */
+  .container .offset-by-two {
+    padding-left: 150px;
+  }
+  /* line 149, ../sass/ribs/_mixins.scss */
+  .container .offset-by-three {
+    padding-left: 225px;
+  }
+  /* line 150, ../sass/ribs/_mixins.scss */
+  .container .offset-by-four {
+    padding-left: 300px;
+  }
+  /* line 151, ../sass/ribs/_mixins.scss */
+  .container .offset-by-five {
+    padding-left: 375px;
+  }
+  /* line 152, ../sass/ribs/_mixins.scss */
+  .container .offset-by-six {
+    padding-left: 450px;
+  }
+  /* line 153, ../sass/ribs/_mixins.scss */
+  .container .offset-by-seven {
+    padding-left: 525px;
+  }
+  /* line 154, ../sass/ribs/_mixins.scss */
+  .container .offset-by-eight {
+    padding-left: 600px;
+  }
+  /* line 155, ../sass/ribs/_mixins.scss */
+  .container .offset-by-nine {
+    padding-left: 675px;
+  }
+  /* line 156, ../sass/ribs/_mixins.scss */
+  .container .offset-by-ten {
+    padding-left: 750px;
+  }
+  /* line 157, ../sass/ribs/_mixins.scss */
+  .container .offset-by-eleven {
+    padding-left: 825px;
+  }
+  /* line 158, ../sass/ribs/_mixins.scss */
+  .container .offset-by-twelve {
+    padding-left: 900px;
+  }
+  /* line 159, ../sass/ribs/_mixins.scss */
+  .container .offset-by-thirteen {
+    padding-left: 975px;
+  }
+  /* line 160, ../sass/ribs/_mixins.scss */
+  .container .offset-by-fourteen {
+    padding-left: 1050px;
+  }
+  /* line 161, ../sass/ribs/_mixins.scss */
+  .container .offset-by-fifteen {
+    padding-left: 1125px;
+  }
+  /* line 163, ../sass/ribs/_mixins.scss */
+  .container .pull-by-one {
+    margin-left: -75px;
+  }
+  /* line 164, ../sass/ribs/_mixins.scss */
+  .container .pull-by-two {
+    margin-left: -150px;
+  }
+  /* line 165, ../sass/ribs/_mixins.scss */
+  .container .pull-by-three {
+    margin-left: -225px;
+  }
+  /* line 166, ../sass/ribs/_mixins.scss */
+  .container .pull-by-four {
+    margin-left: -300px;
+  }
+  /* line 167, ../sass/ribs/_mixins.scss */
+  .container .pull-by-five {
+    margin-left: -375px;
+  }
+  /* line 168, ../sass/ribs/_mixins.scss */
+  .container .pull-by-six {
+    margin-left: -450px;
+  }
+  /* line 169, ../sass/ribs/_mixins.scss */
+  .container .pull-by-seven {
+    margin-left: -525px;
+  }
+  /* line 170, ../sass/ribs/_mixins.scss */
+  .container .pull-by-eight {
+    margin-left: -600px;
+  }
+  /* line 171, ../sass/ribs/_mixins.scss */
+  .container .pull-by-nine {
+    margin-left: -675px;
+  }
+  /* line 172, ../sass/ribs/_mixins.scss */
+  .container .pull-by-ten {
+    margin-left: -750px;
+  }
+  /* line 173, ../sass/ribs/_mixins.scss */
+  .container .pull-by-eleven {
+    margin-left: -825px;
+  }
+  /* line 174, ../sass/ribs/_mixins.scss */
+  .container .pull-by-twelve {
+    margin-left: -900px;
+  }
+  /* line 175, ../sass/ribs/_mixins.scss */
+  .container .pull-by-thirteen {
+    margin-left: -975px;
+  }
+  /* line 176, ../sass/ribs/_mixins.scss */
+  .container .pull-by-fourteen {
+    margin-left: -1050px;
+  }
+  /* line 177, ../sass/ribs/_mixins.scss */
+  .container .pull-by-fifteen {
+    margin-left: -1125px;
+  }
+  /* line 179, ../sass/ribs/_mixins.scss */
+  .container .push-by-one {
+    margin-left: 75px;
+  }
+  /* line 180, ../sass/ribs/_mixins.scss */
+  .container .push-by-two {
+    margin-left: 150px;
+  }
+  /* line 181, ../sass/ribs/_mixins.scss */
+  .container .push-by-three {
+    margin-left: 225px;
+  }
+  /* line 182, ../sass/ribs/_mixins.scss */
+  .container .push-by-four {
+    margin-left: 300px;
+  }
+  /* line 183, ../sass/ribs/_mixins.scss */
+  .container .push-by-five {
+    margin-left: 375px;
+  }
+  /* line 184, ../sass/ribs/_mixins.scss */
+  .container .push-by-six {
+    margin-left: 450px;
+  }
+  /* line 185, ../sass/ribs/_mixins.scss */
+  .container .push-by-seven {
+    margin-left: 525px;
+  }
+  /* line 186, ../sass/ribs/_mixins.scss */
+  .container .push-by-eight {
+    margin-left: 600px;
+  }
+  /* line 187, ../sass/ribs/_mixins.scss */
+  .container .push-by-nine {
+    margin-left: 675px;
+  }
+  /* line 188, ../sass/ribs/_mixins.scss */
+  .container .push-by-ten {
+    margin-left: 750px;
+  }
+  /* line 189, ../sass/ribs/_mixins.scss */
+  .container .push-by-eleven {
+    margin-left: 825px;
+  }
+  /* line 190, ../sass/ribs/_mixins.scss */
+  .container .push-by-twelve {
+    margin-left: 900px;
+  }
+  /* line 191, ../sass/ribs/_mixins.scss */
+  .container .push-by-thirteen {
+    margin-left: 975px;
+  }
+  /* line 192, ../sass/ribs/_mixins.scss */
+  .container .push-by-fourteen {
+    margin-left: 1050px;
+  }
+  /* line 193, ../sass/ribs/_mixins.scss */
+  .container .push-by-fifteen {
+    margin-left: 1125px;
+  }
+
+  /* line 63, ../sass/ribs/_grid.scss */
+  .container {
+    width: 900px;
+  }
+}
+@media only screen and (max-width: 899px) {
+  /* line 122, ../sass/ribs/_mixins.scss */
+  .container {
     width: 768px;
   }
   /* line 125, ../sass/ribs/_mixins.scss */
@@ -1107,7 +1382,7 @@ hr {
     margin-left: 960px;
   }
 
-  /* line 63, ../sass/ribs/_grid.scss */
+  /* line 73, ../sass/ribs/_grid.scss */
   .container {
     width: 768px;
   }
@@ -1117,19 +1392,19 @@ hr {
   Every column element in this grid is the total grid width
 */
 @media only screen and (max-width: 767px) {
-  /* line 74, ../sass/ribs/_grid.scss */
+  /* line 84, ../sass/ribs/_grid.scss */
   .container {
     width: 90%;
   }
-  /* line 97, ../sass/ribs/_grid.scss */
+  /* line 107, ../sass/ribs/_grid.scss */
   .container .one, .container .two, .container .three, .container .four, .container .five, .container .six, .container .seven, .container .eight, .container .nine, .container .ten, .container .eleven, .container .twelve, .container .thirteen, .container .fourteen, .container .fifteen, .container .sixteen, .container .one-third, .container .two-thirds, .container .one-half, .container .one-quarter, .container .three-quarters {
     width: 100%;
   }
-  /* line 99, ../sass/ribs/_grid.scss */
+  /* line 109, ../sass/ribs/_grid.scss */
   .container .column, .container .columns {
     margin: 0;
   }
-  /* line 117, ../sass/ribs/_grid.scss */
+  /* line 127, ../sass/ribs/_grid.scss */
   .container .offset-by-one,
   .container .offset-by-two,
   .container .offset-by-three,
@@ -1155,7 +1430,7 @@ hr {
     This element has clearfix applied in browsers that support the :after css selector
   </div>```
 */
-/* line 130, ../sass/ribs/_grid.scss */
+/* line 140, ../sass/ribs/_grid.scss */
 .container:after {
   content: "\0020";
   display: block;
@@ -1170,7 +1445,7 @@ hr {
  Use this clearfix class on parent to clear nested columns, or:
  wrap each row of columns in a ```<div class="row">...</div>```
 */
-/* line 147, ../sass/ribs/_grid.scss */
+/* line 157, ../sass/ribs/_grid.scss */
 .clearfix:before,
 .clearfix:after,
 .row:before,
@@ -1190,13 +1465,13 @@ hr {
     This element has clearfix applied in browsers that support the :after css selector
   </div>```
 */
-/* line 163, ../sass/ribs/_grid.scss */
+/* line 173, ../sass/ribs/_grid.scss */
 .row:after,
 .clearfix:after {
   clear: both;
 }
 
-/* line 167, ../sass/ribs/_grid.scss */
+/* line 177, ../sass/ribs/_grid.scss */
 .row, .clearfix {
   zoom: 1;
 }
@@ -1205,7 +1480,7 @@ hr {
   ##Block level clear
   You can also use a ```<br class="clear">``` to clear columns
 */
-/* line 175, ../sass/ribs/_grid.scss */
+/* line 185, ../sass/ribs/_grid.scss */
 .clear {
   clear: both;
   display: block;
@@ -1222,7 +1497,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 
 /* line 7, ../sass/ribs/_typography.scss */
 h1 {
-  color: #181818;
+  color: #686868;
   font-family: "Oswald", "Times New Roman", serif;
   font-weight: normal;
   font-size: 32px;
@@ -1232,7 +1507,7 @@ h1 {
 
 /* line 16, ../sass/ribs/_typography.scss */
 h2 {
-  color: #181818;
+  color: #686868;
   font-family: "Oswald", "Times New Roman", serif;
   font-weight: normal;
   font-size: 35px;
@@ -1242,7 +1517,7 @@ h2 {
 
 /* line 25, ../sass/ribs/_typography.scss */
 h3 {
-  color: #181818;
+  color: #686868;
   font-family: "Oswald", "Times New Roman", serif;
   font-weight: normal;
   font-size: 28px;
@@ -1252,7 +1527,7 @@ h3 {
 
 /* line 34, ../sass/ribs/_typography.scss */
 h4 {
-  color: #181818;
+  color: #686868;
   font-family: "Oswald", "Times New Roman", serif;
   font-weight: normal;
   font-size: 21px;
@@ -1262,7 +1537,7 @@ h4 {
 
 /* line 43, ../sass/ribs/_typography.scss */
 h5 {
-  color: #181818;
+  color: #686868;
   font-family: "Oswald", "Times New Roman", serif;
   font-weight: normal;
   font-size: 17px;
@@ -1271,7 +1546,7 @@ h5 {
 
 /* line 51, ../sass/ribs/_typography.scss */
 h6 {
-  color: #181818;
+  color: #686868;
   font-family: "Oswald", "Times New Roman", serif;
   font-weight: normal;
   font-size: 14px;
@@ -1905,27 +2180,27 @@ table table {
   background-color: #999999;
 }
 
-/* line 13, ../sass/_site_structure.scss */
+/* line 17, ../sass/_site_structure.scss */
 .pull-left {
   float: left;
 }
 
-/* line 17, ../sass/_site_structure.scss */
+/* line 21, ../sass/_site_structure.scss */
 .pull-right {
   float: right;
 }
 
-/* line 22, ../sass/_site_structure.scss */
+/* line 26, ../sass/_site_structure.scss */
 .clearfix {
   @clearfix;
 }
 
-/* line 26, ../sass/_site_structure.scss */
+/* line 30, ../sass/_site_structure.scss */
 .centered {
   text-align: center;
 }
 
-/* line 33, ../sass/_site_structure.scss */
+/* line 37, ../sass/_site_structure.scss */
 .button {
   text-transform: uppercase;
   font-weight: bold;
@@ -1933,65 +2208,75 @@ table table {
   text-align: center;
   margin-bottom: 0;
 }
-/* line 40, ../sass/_site_structure.scss */
+/* line 44, ../sass/_site_structure.scss */
 .button:hover {
   background-image: none;
   background-color: #4d9a45;
 }
 
-/* line 46, ../sass/_site_structure.scss */
+/* line 50, ../sass/_site_structure.scss */
 .button.grey {
   background-image: none;
-  background-color: #414141;
+  background-color: #3a3a3a;
 }
-/* line 50, ../sass/_site_structure.scss */
+/* line 54, ../sass/_site_structure.scss */
 .button.grey:hover {
-  background-color: #3d3d3d;
+  background-color: #373737;
 }
 
-/* line 55, ../sass/_site_structure.scss */
+/* line 59, ../sass/_site_structure.scss */
 .button.block {
   display: inline-block;
   width: 100%;
 }
 
-/* line 60, ../sass/_site_structure.scss */
+/* line 64, ../sass/_site_structure.scss */
 .button.large {
   font-size: 20px;
   padding: 6px 25px;
 }
 
-/* line 68, ../sass/_site_structure.scss */
-body {
-  color: #414141;
+/* line 74, ../sass/_site_structure.scss */
+a,
+a:hover,
+a:focus {
+  color: #1e679b;
 }
 
-/* line 72, ../sass/_site_structure.scss */
+/* line 78, ../sass/_site_structure.scss */
+a:visited {
+  color: #691e9b;
+}
+
+/* line 85, ../sass/_site_structure.scss */
+body {
+  color: #565656;
+}
+
+/* line 89, ../sass/_site_structure.scss */
 header {
   background-color: #f8f8f8;
   border-bottom: 2px solid #e0e0e0;
   position: relative;
 }
-/* line 77, ../sass/_site_structure.scss */
+/* line 94, ../sass/_site_structure.scss */
 header .nav-bg {
-  background-color: #414141;
+  background-color: #3a3a3a;
   width: 100%;
   position: absolute;
 }
-/* line 83, ../sass/_site_structure.scss */
+/* line 100, ../sass/_site_structure.scss */
 header .logo {
   position: absolute;
   top: 18px;
 }
-/* line 88, ../sass/_site_structure.scss */
+/* line 105, ../sass/_site_structure.scss */
 header .nav {
   float: right;
-  position: relative;
-  left: 30px;
 }
-/* line 93, ../sass/_site_structure.scss */
+/* line 108, ../sass/_site_structure.scss */
 header .nav li {
-  background-color: #414141;
+  background-color: #3a3a3a;
   display: inline-block;
   float: left;
   transform: skew(30deg);
@@ -2001,12 +2286,12 @@ header .nav li {
   margin: 0;
   padding: 0;
 }
-/* line 106, ../sass/_site_structure.scss */
+/* line 121, ../sass/_site_structure.scss */
 header .nav li.active,
 header .nav li:hover {
   background-color: #1e679b;
 }
-/* line 110, ../sass/_site_structure.scss */
+/* line 125, ../sass/_site_structure.scss */
 header .nav a {
   text-decoration: none;
   text-transform: uppercase;
@@ -2021,40 +2306,55 @@ header .nav a {
   display: inline-block;
   padding: 18px 22px;
 }
-/* line 126, ../sass/_site_structure.scss */
+/* line 141, ../sass/_site_structure.scss */
 header .ctas {
-  margin: 10px 0 25px 0;
+  margin: 10px 38px 25px 0;
   max-width: 100px;
 }
-/* line 129, ../sass/_site_structure.scss */
+/* line 144, ../sass/_site_structure.scss */
 header .ctas .first {
   margin-bottom: 5px;
 }
-/* line 134, ../sass/_site_structure.scss */
+/* line 149, ../sass/_site_structure.scss */
 header .dates {
   text-align: right;
   margin: 10px 30px 0 0;
   padding: 5px 30px 5px 0;
-  border-right: 1px solid #ececec;
+  border-right: 1px solid #e0e0e0;
 }
-/* line 140, ../sass/_site_structure.scss */
+/* line 155, ../sass/_site_structure.scss */
 header .dates h2 {
   font-size: 25px;
   line-height: 1;
   margin: 0 0 7px 0;
+  color: #565656;
 }
-/* line 146, ../sass/_site_structure.scss */
+/* line 162, ../sass/_site_structure.scss */
 header .dates p {
   line-height: 1;
   margin: 0;
   font-size: 17px;
 }
 
+/* line 173, ../sass/_site_structure.scss */
+.stay-in-touch i {
+  color: #3a3a3a;
+  font-size: 16px;
+  padding-right: 5px;
+}
+
+@media only screen and (max-width: 1170px) {
+  /* line 184, ../sass/_site_structure.scss */
+  header .nav li a {
+    font-size: 15px;
+    padding: 15px;
+  }
+}
 /* line 3, ../sass/pages/_homepage.scss */
 .banner {
   width: 100%;
   height: 448px;
-  background: url("../../img/banner.jpg") no-repeat 50% 50%;
+  background: url("../../img/banner.jpg") no-repeat 50% 0;
   border-bottom: 1px solid #e0e0e0;
 }
 /* line 9, ../sass/pages/_homepage.scss */
@@ -2063,10 +2363,14 @@ header .dates p {
   width: 40%;
 }
 /* line 13, ../sass/pages/_homepage.scss */
+.banner .cta h1 {
+  color: #3a3a3a;
+}
+/* line 17, ../sass/pages/_homepage.scss */
 .banner .cta .conf-dates {
   margin: 30px 0 20px 0;
 }
-/* line 16, ../sass/pages/_homepage.scss */
+/* line 20, ../sass/pages/_homepage.scss */
 .banner .cta .conf-dates li {
   display: inline-block;
   padding-left: 22px;
@@ -2074,15 +2378,15 @@ header .dates p {
   background: url("../../img/cal.png") no-repeat 0 3px;
 }
 
-/* line 28, ../sass/pages/_homepage.scss */
+/* line 32, ../sass/pages/_homepage.scss */
 .home-h2 {
   text-transform: uppercase;
   font-size: 29px;
   text-align: center;
-  margin: 40px 0;
+  margin: 50px 0;
   overflow: hidden;
 }
-/* line 36, ../sass/pages/_homepage.scss */
+/* line 40, ../sass/pages/_homepage.scss */
 .home-h2:before, .home-h2:after {
   border-top: 1px solid #e0e0e0;
   content: "";
@@ -2093,33 +2397,40 @@ header .dates p {
   width: 50%;
   margin-bottom: 5px;
 }
-/* line 46, ../sass/pages/_homepage.scss */
+/* line 50, ../sass/pages/_homepage.scss */
 .home-h2:before {
   right: 30px;
   margin-left: -50%;
 }
-/* line 50, ../sass/pages/_homepage.scss */
+/* line 54, ../sass/pages/_homepage.scss */
 .home-h2:after {
   left: 30px;
   margin-right: -50%;
 }
 
-/* line 56, ../sass/pages/_homepage.scss */
+/* line 60, ../sass/pages/_homepage.scss */
 .content-cta {
   margin: 20px 0 60px 0;
 }
 
-/* line 62, ../sass/pages/_homepage.scss */
-.speaker .padding {
-  padding: 0 10px;
-}
 /* line 66, ../sass/pages/_homepage.scss */
+.speaker .padding {
+  padding: 0 7px;
+}
+/* line 70, ../sass/pages/_homepage.scss */
 .speaker p {
   margin-top: 15px;
   line-height: 1.6;
 }
-/* line 70, ../sass/pages/_homepage.scss */
+/* line 74, ../sass/pages/_homepage.scss */
 .speaker p a {
   font-weight: bold;
   display: block;
+}
+
+@media only screen and (max-width: 768px) {
+  /* line 85, ../sass/pages/_homepage.scss */
+  .speaker .padding {
+    text-align: center;
+  }
 }

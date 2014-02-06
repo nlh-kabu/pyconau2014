@@ -1,11 +1,15 @@
 // Variables
 
 
-$dark-grey: #414141;
+$dark-grey: #3a3a3a; //menus, footer, darkest text, etc.
+$text-grey: #565656; //main body text
+$mid-grey: #686868; // slightly lighter headings, etc.
+$grey-border: #e0e0e0;
+
 $white: #fff;
 $blue: #1e679b;
 $green: #52a349;
-$grey-border: #e0e0e0;
+$purple: #691e9b; //visited links
 
 
 // Generic Classes
@@ -63,10 +67,23 @@ $grey-border: #e0e0e0;
 }
 
 
+// Ribs colour overrides - using new colour variables
+
+a,
+a:hover,
+a:focus {
+    color: $blue;
+}
+
+a:visited {
+    color: $purple;
+}
+
+
 // Header
 
 body {
-    color: $dark-grey;
+    color: $text-grey;
 }
 
 header {
@@ -87,8 +104,6 @@ header {
 
     .nav {
         float: right;
-        position: relative;
-        left: 30px;
 
         li {
             background-color: $dark-grey;
@@ -124,7 +139,7 @@ header {
     }
 
     .ctas {
-        margin: 10px 0 25px 0;
+        margin: 10px 38px 25px 0;
         max-width: 100px;
         .first {
             margin-bottom: 5px;
@@ -135,12 +150,13 @@ header {
         text-align: right;
         margin: 10px 30px 0 0;
         padding: 5px 30px 5px 0;
-        border-right: 1px solid #ececec;
+        border-right: 1px solid $grey-border;
 
         h2 {
             font-size: 25px;
             line-height: 1;
             margin: 0 0 7px 0;
+            color: $text-grey;
         }
 
         p  {
@@ -148,5 +164,25 @@ header {
             margin: 0;
             font-size: 17px;
         }
+    }
+}
+
+//  Stay in touch
+
+.stay-in-touch {
+    i {
+        color: $dark-grey;
+        font-size: 16px;
+        padding-right: 5px;
+    }
+}
+
+
+// Responsive
+
+@media only screen and (max-width : 1170px) {
+    header .nav li a {
+        font-size: 15px;
+        padding: 15px;
     }
 }

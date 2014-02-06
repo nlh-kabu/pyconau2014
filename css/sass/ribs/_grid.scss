@@ -56,6 +56,16 @@
 @include grid($desktop-container-width, $column-count, $gutter);
 
 //-----------------------------------------------------------------------
+// #Sml Desktop Grid
+@media only screen and (max-width: $sml-desktop-max-breakpoint) {
+  @include grid($sml-desktop-container-width, $column-count, $gutter);
+
+  .container {
+    width: $sml-desktop-container-width;
+  }
+}
+
+//-----------------------------------------------------------------------
 // #Tablet Grid
 @media only screen and (max-width: $tablet-max-breakpoint) {
   @include grid($tablet-container-width, $column-count, $gutter);
