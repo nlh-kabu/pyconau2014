@@ -1,0 +1,152 @@
+// Variables
+
+
+$dark-grey: #414141;
+$white: #fff;
+$blue: #1e679b;
+$green: #52a349;
+$grey-border: #e0e0e0;
+
+
+// Generic Classes
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+
+.clearfix {
+    @clearfix;
+}
+
+.centered {
+    text-align: center;
+}
+
+
+// Ribs overrides - changes that cannot be made by changing ribs variables file
+
+.button {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 0;
+
+    &:hover {
+        background-image: none;
+        background-color: $green *.95;
+    }
+}
+
+.button.grey {
+    background-image: none;
+    background-color: $dark-grey;
+
+    &:hover {
+        background-color: $dark-grey *.95;
+    }
+}
+
+.button.block {
+    display: inline-block;
+    width: 100%;
+}
+
+.button.large {
+    font-size: 20px;
+    padding: 6px 25px;
+}
+
+
+// Header
+
+body {
+    color: $dark-grey;
+}
+
+header {
+    background-color: #f8f8f8;
+    border-bottom: 2px solid $grey-border;
+    position: relative;
+
+    .nav-bg {
+        background-color: $dark-grey;
+        width: 100%;
+        position: absolute;
+    }
+
+    .logo {
+        position: absolute;
+        top: 18px;
+    }
+
+    .nav {
+        float: right;
+        position: relative;
+        left: 30px;
+
+        li {
+            background-color: $dark-grey;
+            display: inline-block;
+            float: left;
+            transform: skew(30deg);
+            -o-transform: skew(30deg);
+            -moz-transform: skew(30deg);
+            -webkit-transform: skew(30deg);
+            margin: 0;
+            padding: 0;
+        }
+
+        li.active,
+        li:hover {
+            background-color: $blue;
+        }
+
+        a {
+            text-decoration: none;
+            text-transform: uppercase;
+            color: $white;
+            font-family: 'Oswald';
+            font-weight: normal;
+            font-size: 17px;
+            transform: skew(-30deg);
+            -o-transform: skew(-30deg);
+            -moz-transform: skew(-30deg);
+            -webkit-transform: skew(-30deg);
+            display: inline-block;
+            padding: 18px 22px;
+        }
+    }
+
+    .ctas {
+        margin: 10px 0 25px 0;
+        max-width: 100px;
+        .first {
+            margin-bottom: 5px;
+        }
+    }
+
+    .dates {
+        text-align: right;
+        margin: 10px 30px 0 0;
+        padding: 5px 30px 5px 0;
+        border-right: 1px solid #ececec;
+
+        h2 {
+            font-size: 25px;
+            line-height: 1;
+            margin: 0 0 7px 0;
+        }
+
+        p  {
+            line-height: 1;
+            margin: 0;
+            font-size: 17px;
+        }
+    }
+}

@@ -1,7 +1,7 @@
 // #Grid System Variables
-$gutter: 20px !default;
-$column-count: 16 !default;
-$desktop-container-width: 1060px !default;
+$gutter: 18px !default;
+$column-count: 12 !default;
+$desktop-container-width: 1170px !default;
 $tablet-container-width: 768px !default;
 $mobile-container-width: 90% !default;
 $mobile-column-width: 100% !default;
@@ -12,31 +12,31 @@ $tablet-max-breakpoint: $desktop-container-width - 1 !default;
 $mobile-max-breakpoint: $tablet-container-width - 1 !default;
 
 // #Form Variables
-$form_element_font: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$form_element_font: "Oxygen", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
 
 // ##button
 $form_button_border_radius: 3px !default;
-$form_button_border_topleft: 1px solid #ccc !default;
-$form_button_border_rightbottom: 1px solid #aaa !default;
-$form_button_text_colour: #444 !default;
-$form_button_text_shadow: 0 1px rgba(255, 255, 255, .75) !default;
-$form_button_gradient_start: rgba(255, 255, 255, .2) !default;
-$form_button_gradient_end: rgba(0, 0, 0, .2) !default;
+$form_button_border_topleft: 0 !default;
+$form_button_border_rightbottom: 0 !default;
+$form_button_text_colour: #fff !important;
+$form_button_text_shadow: 0 1px rgba(0, 0, 0, .3) !default;
+$form_button_gradient_start: rgba(82, 163, 73, 1) !default;
+$form_button_gradient_end: rgba(82, 163, 73, 1) !default;
 $form_button_font_size: 11px !default;
-$form_button_padding: 6px 10px !default;
+$form_button_padding: 4px 10px !default;
 $form_button_line_height: normal !default;
 
 // ##button hover
-$form_button_hover_border_topleft: 1px solid #aaa !default;
-$form_button_hover_border_rightbottom: 1px solid #888 !default;
-$form_button_hover_gradient_start: rgba(255, 255, 255, .3) !default;
-$form_button_hover_gradient_end: rgba(0, 0, 0, .3) !default;
-$form_button_hover_text_colour: #222 !default;
+$form_button_hover_border_topleft: 0 !default;
+$form_button_hover_border_rightbottom: 0 !default;
+$form_button_hover_gradient_start: rgba(82, 163, 73, 1) !default;
+$form_button_hover_gradient_end: rgba(82, 163, 73, 1) !default;
+$form_button_hover_text_colour: #fff !default;
 
 // ##Button active
-$form_button_active_border: 1px solid #666 !default;
-$form_button_active_gradient_start: rgba(255, 255, 255, .2) !default;
-$form_button_active_gradient_end: rgba(0, 0, 0, .2) !default;
+$form_button_active_border: 0 !default;
+$form_button_active_gradient_start: rgba(82, 163, 73, 1) !default;
+$form_button_active_gradient_end: rgba(82, 163, 73, 1) !default;
 
 // ##Form input
 $form_input_border: 1px solid #ccc !default;
@@ -84,12 +84,12 @@ $link_hover_colour: #000 !default;
 $link_hover_decoration: none !default;
 
 // #Headings
-$heading_font: "Georgia", "Times New Roman", serif !default;
+$heading_font: "Oswald", "Times New Roman", serif !default;
 $heading_font_weight: normal !default;
 $heading_colour: #181818 !default;
 
-$heading1_font_size: 46px !default;
-$heading1_line_height: $heading1_font_size * 1.5 !default;
+$heading1_font_size: 32px !default;
+$heading1_line_height: $heading1_font_size * 1.1 !default;
 $heading1_margin: 0 0 14px 0 !default;
 
 $heading2_font_size: 35px !default;
@@ -147,7 +147,7 @@ $hr_border_width: 1px 0 0 !default;
 $hr_margin: 10px 0 30px !default;
 
 // #Main font
-$body_font_family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$body_font_family: "Oxygen", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
 
 // #Lists
 $list_margin: 0 0 20px 0 !default;
