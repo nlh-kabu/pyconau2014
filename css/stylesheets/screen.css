@@ -2,7 +2,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 17, ../../../../../../usr/local/share/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../../../../usr/local/share/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,45 +24,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../../usr/local/share/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../../usr/local/share/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../../usr/local/share/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../../usr/local/share/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../../usr/local/share/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../../usr/local/share/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../../usr/local/share/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../../usr/local/share/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../../usr/local/share/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../../usr/local/share/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../../usr/local/share/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../../usr/local/share/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../../usr/local/share/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../../usr/local/share/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../../usr/local/share/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../../../usr/local/share/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -2343,8 +2343,65 @@ header .dates p {
   padding-right: 5px;
 }
 
+/* line 187, ../sass/_site_structure.scss */
+footer {
+  margin-top: 100px;
+  background-color: #3a3a3a;
+  color: white;
+}
+/* line 193, ../sass/_site_structure.scss */
+footer .footer-links {
+  float: left;
+  margin: 35px 60px 35px 0;
+}
+/* line 197, ../sass/_site_structure.scss */
+footer .footer-links li {
+  padding: 0;
+  margin: 5px 0;
+}
+/* line 201, ../sass/_site_structure.scss */
+footer .footer-links li a {
+  color: white;
+  text-decoration: none;
+}
+/* line 208, ../sass/_site_structure.scss */
+footer .footer-conf-dates {
+  margin: 38px 0 35px 0;
+  float: left;
+}
+/* line 212, ../sass/_site_structure.scss */
+footer .footer-conf-dates li {
+  padding-left: 32px;
+  margin: 5px 0 15px 0;
+  background: url("../../img/cal-white.png") no-repeat 0 5px;
+}
+/* line 217, ../sass/_site_structure.scss */
+footer .footer-conf-dates li strong {
+  color: white;
+}
+/* line 223, ../sass/_site_structure.scss */
+footer .white-logo {
+  margin-top: 40px;
+}
+
+/* line 228, ../sass/_site_structure.scss */
+.bottom-footer {
+  background-color: #1e679b;
+  padding: 15px 0;
+  font-size: 13px;
+  color: #a5c2d7;
+}
+/* line 235, ../sass/_site_structure.scss */
+.bottom-footer a {
+  color: #a5c2d7;
+}
+/* line 239, ../sass/_site_structure.scss */
+.bottom-footer span {
+  margin-right: 30px;
+}
+
 @media only screen and (max-width: 1170px) {
-  /* line 184, ../sass/_site_structure.scss */
+  /* line 248, ../sass/_site_structure.scss */
   header .nav li a {
     font-size: 15px;
     padding: 15px;
@@ -2378,15 +2435,15 @@ header .dates p {
   background: url("../../img/cal.png") no-repeat 0 3px;
 }
 
-/* line 32, ../sass/pages/_homepage.scss */
+/* line 31, ../sass/pages/_homepage.scss */
 .home-h2 {
   text-transform: uppercase;
   font-size: 29px;
   text-align: center;
-  margin: 50px 0;
+  margin: 60px 0;
   overflow: hidden;
 }
-/* line 40, ../sass/pages/_homepage.scss */
+/* line 39, ../sass/pages/_homepage.scss */
 .home-h2:before, .home-h2:after {
   border-top: 1px solid #e0e0e0;
   content: "";
@@ -2397,39 +2454,121 @@ header .dates p {
   width: 50%;
   margin-bottom: 5px;
 }
-/* line 50, ../sass/pages/_homepage.scss */
+/* line 49, ../sass/pages/_homepage.scss */
 .home-h2:before {
   right: 30px;
   margin-left: -50%;
 }
-/* line 54, ../sass/pages/_homepage.scss */
+/* line 53, ../sass/pages/_homepage.scss */
 .home-h2:after {
   left: 30px;
   margin-right: -50%;
 }
 
-/* line 60, ../sass/pages/_homepage.scss */
+/* line 59, ../sass/pages/_homepage.scss */
 .content-cta {
-  margin: 20px 0 60px 0;
+  margin: 20px 0 80px 0;
 }
 
 /* line 66, ../sass/pages/_homepage.scss */
-.speaker .padding {
-  padding: 0 7px;
+#speakers {
+  margin-bottom: 40px;
 }
-/* line 70, ../sass/pages/_homepage.scss */
-.speaker p {
+/* line 69, ../sass/pages/_homepage.scss */
+#speakers p {
   margin-top: 15px;
   line-height: 1.6;
 }
-/* line 74, ../sass/pages/_homepage.scss */
-.speaker p a {
+/* line 73, ../sass/pages/_homepage.scss */
+#speakers p a {
   font-weight: bold;
   display: block;
 }
+/* line 79, ../sass/pages/_homepage.scss */
+#speakers .owl-item .item {
+  margin: 0 10px;
+  text-align: center;
+}
+
+/* line 88, ../sass/pages/_homepage.scss */
+#sponsors {
+  margin-bottom: 40px;
+}
+/* line 91, ../sass/pages/_homepage.scss */
+#sponsors .owl-item .item {
+  margin: 0 10px 20px 10px;
+  text-align: center;
+}
+/* line 95, ../sass/pages/_homepage.scss */
+#sponsors .owl-item .item img {
+  margin-bottom: 10px;
+}
+
+/* line 101, ../sass/pages/_homepage.scss */
+.sponsor {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+/* line 109, ../sass/pages/_homepage.scss */
+article.homepage-news {
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+/* line 114, ../sass/pages/_homepage.scss */
+.date {
+  float: left;
+  width: 15%;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: right;
+  font-style: italic;
+  margin-right: 3%;
+  line-height: 31.5px;
+}
+
+/* line 125, ../sass/pages/_homepage.scss */
+.article-body {
+  float: left;
+  width: 80%;
+}
+/* line 129, ../sass/pages/_homepage.scss */
+.article-body .news-title {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/* line 140, ../sass/pages/_homepage.scss */
+.bcec-images img {
+  margin-bottom: 11px;
+}
+
+/* line 144, ../sass/pages/_homepage.scss */
+.about-bcec .padding {
+  padding: 0 10px;
+}
+
+/* line 148, ../sass/pages/_homepage.scss */
+.bcec-address {
+  margin-bottom: 30px;
+}
+/* line 151, ../sass/pages/_homepage.scss */
+.bcec-address span {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* line 157, ../sass/pages/_homepage.scss */
+#map-canvas {
+  width: 100%;
+  height: 440px;
+}
 
 @media only screen and (max-width: 768px) {
-  /* line 85, ../sass/pages/_homepage.scss */
+  /* line 167, ../sass/pages/_homepage.scss */
   .speaker .padding {
     text-align: center;
   }

@@ -178,6 +178,70 @@ header {
 }
 
 
+// Footer
+
+.footer-overlay {
+
+}
+
+footer {
+
+    margin-top: 100px;
+    background-color: $dark-grey;
+    color: $white;
+
+    .footer-links {
+        float: left;
+        margin: 35px 60px 35px 0;
+
+        li {
+            padding: 0;
+            margin: 5px 0;
+
+            a {
+                color: $white;
+                text-decoration: none;
+            }
+        }
+    }
+
+    .footer-conf-dates {
+            margin: 38px 0 35px 0;
+            float: left;
+
+            li {
+                padding-left: 32px;
+                margin: 5px 0 15px 0;
+                background: url('../../img/cal-white.png') no-repeat 0 5px;
+
+                strong {
+                    color: $white;
+                }
+            }
+    }
+
+    .white-logo {
+        margin-top: 40px;
+    }
+}
+
+.bottom-footer {
+    //background-color: #30495a;
+    background-color: $blue;
+    padding: 15px 0;
+    font-size: 13px;
+    color: #a5c2d7;
+
+    a {
+        color: #a5c2d7;
+    }
+
+    span {
+        margin-right: 30px;
+    }
+}
+
+
 // Responsive
 
 @media only screen and (max-width : 1170px) {
