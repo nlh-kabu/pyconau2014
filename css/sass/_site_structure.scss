@@ -62,8 +62,8 @@ input.button {
 }
 
 .button.block {
-    display: inline-block;
-    width: 100%;
+    display: block;
+    min-width: 120px;
 }
 
 .button.large {
@@ -191,8 +191,8 @@ header {
     }
 
     .ctas {
-        margin: 10px 38px 25px 0;
-        max-width: 100px;
+        margin: 10px 10px 25px 0;
+
         .first {
             margin-bottom: 5px;
         }
@@ -218,6 +218,11 @@ header {
         }
     }
 }
+
+.mobile-menu {
+    display: none;
+}
+
 
 //  Stay in touch
 
@@ -285,6 +290,10 @@ footer {
     .white-logo {
         margin-top: 40px;
     }
+
+    .stay-in-touch {
+        display: none;
+    }
 }
 
 .bottom-footer {
@@ -311,5 +320,127 @@ footer {
     header .nav li a {
         font-size: 15px;
         padding: 15px;
+    }
+
+    .logo {
+        max-width: 230px;
+        margin-top: 19px;
+    }
+
+}
+
+@media only screen and (max-width : 900px) {
+    .logo {
+        max-width: 180px;
+        margin-top: 45px;
+
+    }
+}
+
+
+@media only screen and (max-width : 768px) {
+    header {
+        padding-top: 15px;
+        text-align: center;
+        border-bottom: 0;
+
+        .logo {
+            position: static;
+            margin-top: 0;
+        }
+
+        .nav-bg {
+            display: none;
+        }
+
+        .nav {
+            display: none;
+            float: none;
+            margin: 0;
+
+            li {
+                float: none;
+                display: block;
+                transform: skew(0deg);
+                -o-transform: skew(0deg);
+                -moz-transform: skew(0deg);
+                -webkit-transform: skew(0deg);
+
+                a {
+                    display: block;
+                    transform: skew(0deg);
+                    -o-transform: skew(0deg);
+                    -moz-transform: skew(0deg);
+                    -webkit-transform: skew(0deg);
+                }
+            }
+        }
+
+        .dates {
+            float: none;
+            margin: 10px 0 20px 0;
+            padding: 0;
+            border: 0;
+            text-align: center;
+        }
+
+        .ctas {
+            float: none;
+            margin: 10px auto 20px auto;
+            text-align: center;
+
+            .button.block {
+                display: inline-block;
+            }
+        }
+
+    }
+
+    .mobile-menu {
+        display: block;
+        background-color: $dark-grey;
+
+        ul {
+            margin: 0;
+
+            li {
+                padding: 0;
+                margin: 0;
+                list-style-type: none;
+            }
+        }
+
+        a {
+            color: $white;
+            text-decoration: none;
+            display: block;
+            padding: 15px 30px;
+            border-bottom: 1px solid #333;
+            font-family: 'Oswald';
+            font-size: 17px;
+            text-transform: uppercase;
+            font-weight: normal;
+
+            i {
+                margin-top: 2px;
+            }
+        }
+
+        a.active,
+        a:hover {
+            background-color: $blue;
+        }
+    }
+
+    .sidebar-menu {
+        margin-top: 40px;
+    }
+
+    footer .stay-in-touch {
+        display: block;
+
+        a, i {
+            color: $white;
+        }
     }
 }

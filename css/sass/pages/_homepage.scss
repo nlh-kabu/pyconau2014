@@ -169,6 +169,15 @@ article.homepage-news {
 
 // Responsive
 
+@media only screen and (max-width : 1170px) {
+
+    .banner .cta {
+        padding-top: 130px;
+        width: 50%;
+    }
+}
+
+
 @media only screen and (max-width : 768px) {
     .speaker .padding {
         text-align: center;
