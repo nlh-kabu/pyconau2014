@@ -177,7 +177,7 @@ header {
             text-decoration: none;
             text-transform: uppercase;
             color: $white;
-            font-family: 'Oswald';
+            font-family: "Oswald", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
             font-weight: normal;
             font-size: 17px;
             transform: skew(-30deg);
@@ -209,6 +209,12 @@ header {
             line-height: 1;
             margin: 0 0 7px 0;
             color: $text-grey;
+
+            sup {
+                text-transform: uppercase;
+                font-size: 50%;
+                top: -1em;
+            }
         }
 
         p  {
@@ -227,7 +233,7 @@ header {
 //  Stay in touch
 
 .stay-in-touch {
-    margin: 0 0 0 10px;
+    margin: 0 0 0 40px;
 
     li {
         list-style-type: none;
@@ -297,20 +303,64 @@ footer {
 }
 
 .bottom-footer {
-    //background-color: #30495a;
-    background-color: $blue;
-    padding: 15px 0;
     font-size: 13px;
     color: #a5c2d7;
     border-top: 1px solid #333;
-
-    a {
-        color: #a5c2d7;
-    }
+    position: relative;
 
     span {
         margin-right: 30px;
+        padding: 15px 0;
+        display: inline-block;
+
+        a {
+            color: #a5c2d7;
+        }
     }
+
+    .cc-credit {
+        background-color: #30495a;
+        transform: skew(30deg);
+        -o-transform: skew(30deg);
+        -moz-transform: skew(30deg);
+        -webkit-transform: skew(30deg);
+        padding: 15px 0 15px 30px;
+
+        span {
+            margin: 0;
+            display: inline-block;
+            padding: 0;
+            color: #9eacb4;
+            transform: skew(-30deg);
+            -o-transform: skew(-30deg);
+            -moz-transform: skew(-30deg);
+            -webkit-transform: skew(-30deg);
+        }
+
+        a {
+            color: #9eacb4;
+            padding: 0;
+        }
+    }
+}
+
+.bottom-footer-bg {
+    background-color: $blue;
+    height: 100%;
+    width: 100%;
+    position:absolute;
+    top: 0;
+    z-index: -2;
+}
+
+.dark-bottom-footer {
+    background-color: #30495a;
+    height: 100%;
+    width: 100%;
+    position:absolute;
+    top: 0;
+    z-index: -1;
+
 }
 
 
@@ -325,6 +375,42 @@ footer {
     .logo {
         max-width: 230px;
         margin-top: 19px;
+    }
+
+    .dark-bottom-footer {
+        display: none;
+    }
+
+    .bottom-footer {
+        span {
+            padding: 10px 0;
+        }
+
+        .cc-credit {
+            background-color: $blue;
+            transform: skew(0deg);
+            -o-transform: skew(0deg);
+            -moz-transform: skew(0deg);
+            -webkit-transform: skew(0deg);
+            padding: 0 0 10px 0;
+            float: none;
+
+            span {
+                margin: 0;
+                display: inline-block;
+                padding: 0;
+                color: #a5c2d7;
+                transform: skew(0deg);
+                -o-transform: skew(0deg);
+                -moz-transform: skew(0deg);
+                -webkit-transform: skew(0deg);
+            }
+
+            a {
+                color: #a5c2d7;
+                padding: 0;
+            }
+        }
     }
 
 }
@@ -400,7 +486,8 @@ footer {
         display: block;
         background-color: $dark-grey;
 
-        ul {
+        .mobile-nav {
+            display: none;
             margin: 0;
 
             li {
@@ -416,7 +503,7 @@ footer {
             display: block;
             padding: 15px 30px;
             border-bottom: 1px solid #333;
-            font-family: 'Oswald';
+            font-family: "Oswald", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
             font-size: 17px;
             text-transform: uppercase;
             font-weight: normal;
@@ -436,11 +523,39 @@ footer {
         margin-top: 40px;
     }
 
-    footer .stay-in-touch {
-        display: block;
+    footer {
+        margin-top: 40px;
+        padding-top: 20px;
+        text-align: center;
 
-        a, i {
-            color: $white;
+        .footer-links {
+            margin: 30px 0;
+            float: none;
+        }
+
+        .footer-conf-dates {
+            float: none;
+            margin: 30px auto;
+
+            li {
+                padding: 0;
+                background-image: none;
+            }
+        }
+    }
+
+    .bottom-footer {
+        padding: 20px 0;
+
+        span {
+            margin: 0;
+            display: block;
+            text-align: center;
+            padding: 5px 0;
+        }
+
+        .cc-credit {
+            padding: 5px 0;
         }
     }
 }

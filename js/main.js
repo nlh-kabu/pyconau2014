@@ -14,8 +14,33 @@ $(document).ready(function(){
 
     positionBackground();
 
+
+    // Place dark footer
+
+    function positionFooter(){
+        var position = $('.cc-credit').offset();
+        var width = $('html').width() - position.left - 40;
+
+        $('.dark-bottom-footer').css({
+            left: position.left + 40,
+            width: width
+        });
+    }
+
+    positionFooter();
+
+
     $(window).resize(function(){
         positionBackground();
+        positionFooter();
+    });
+
+
+    // Toggle mobile menu
+
+    $('.toggle-mobile-menu').click(function(e){
+        e.preventDefault();
+        $('.mobile-nav').slideToggle();
     });
 
 
