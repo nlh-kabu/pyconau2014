@@ -158,11 +158,9 @@ header {
     .logo {
         position: absolute;
         top: 18px;
+        z-index: 100;
     }
 
-    .mobile-logo {
-        display: none;
-    }
 
     .nav {
         float: right;
@@ -389,7 +387,7 @@ footer {
         padding: 15px;
     }
 
-    .logo {
+    .logo img {
         max-width: 230px;
         margin-top: 19px;
     }
@@ -433,7 +431,7 @@ footer {
 }
 
 @media only screen and (max-width : 900px) {
-    .logo {
+    .logo img {
         max-width: 180px;
         margin-top: 45px;
 
@@ -447,13 +445,12 @@ footer {
         text-align: center;
         border-bottom: 0;
 
-        .mobile-logo {
+        .mobile-logo img {
             display: inline-block;
-            max-width: 200px;
+            max-width: 100%;
             margin: 10px 0;
         }
 
-        .logo,
         .nav-bg {
             display: none;
         }
