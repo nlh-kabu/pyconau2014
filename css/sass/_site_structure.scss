@@ -88,6 +88,23 @@ table {
     background-color: transparent;
 }
 
+label,
+legend {
+   font-weight: bold;
+   font-size: 13px;
+}
+
+.mandatory {
+    color: #ff0000;
+    background: inherit;
+    margin-right: 5px;
+}
+
+.message-error {
+    color: #ff0000;
+}
+
+
 
 // Typography
 
@@ -541,22 +558,13 @@ footer {
 
     footer {
         margin-top: 40px;
-        padding-top: 20px;
-        text-align: center;
 
         .footer-links {
-            margin: 30px 0;
-            float: none;
+            margin: 30px 20px;
         }
 
         .footer-conf-dates {
-            float: none;
-            margin: 30px auto;
-
-            li {
-                padding: 0;
-                background-image: none;
-            }
+            display: none;
         }
     }
 
@@ -573,5 +581,21 @@ footer {
         .cc-credit {
             padding: 5px 0;
         }
+    }
+}
+
+
+@media only screen and (max-width : 530px) {
+
+    footer {
+        text-align: center;
+        padding: 20px 0;
+
+
+        .footer-links {
+            margin: 10px 0;
+            width: 100%;
+        }
+
     }
 }
