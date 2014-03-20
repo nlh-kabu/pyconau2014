@@ -51,7 +51,7 @@ $(document).ready(function(){
     });
 
     $("#sponsors").owlCarousel({
-        items: 4
+        items: 5
     });
 
 
