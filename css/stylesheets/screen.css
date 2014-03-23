@@ -2908,28 +2908,59 @@ footer .stay-in-touch {
 }
 /* line 148, ../sass/pages/_homepage.scss */
 #sponsors .owl-item .item {
-  margin: 0 10px 20px 10px;
+  margin: 0 15px 20px 10px;
   text-align: center;
+  padding-top: 4px;
 }
-/* line 152, ../sass/pages/_homepage.scss */
-#sponsors .owl-item .item img {
-  margin-bottom: 10px;
+/* line 153, ../sass/pages/_homepage.scss */
+#sponsors .owl-item .item a {
+  display: block;
+  margin-bottom: 30px;
+  color: dark-grey;
+  -webkit-box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.05);
+  text-decoration: none;
+  font-family: "Oswald", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+}
+/* line 163, ../sass/pages/_homepage.scss */
+#sponsors .owl-item .item a:hover {
+  -webkit-box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.1);
+}
+/* line 168, ../sass/pages/_homepage.scss */
+#sponsors .owl-item .item a img {
+  display: block;
+  background-color: white;
+  margin: 0;
+}
+/* line 174, ../sass/pages/_homepage.scss */
+#sponsors .owl-item .item a span {
+  display: block;
+  padding: 7px;
+  margin: 0;
+  background-color: #e0e0e0;
+  color: #3a3a3a;
+  text-align: center;
+  border-top: 2px solid #ccc;
+  -webkit-box-shadow: inset 0px 0px 5px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0px 0px 5px 1px rgba(0, 0, 0, 0.05);
 }
 
-/* line 158, ../sass/pages/_homepage.scss */
+/* line 189, ../sass/pages/_homepage.scss */
 .sponsor {
   display: inline-block;
   margin-top: 10px;
 }
 
-/* line 166, ../sass/pages/_homepage.scss */
+/* line 197, ../sass/pages/_homepage.scss */
 article.homepage-news {
   padding: 0 20px;
   margin-bottom: 20px;
   margin-top: 40px;
 }
 
-/* line 172, ../sass/pages/_homepage.scss */
+/* line 203, ../sass/pages/_homepage.scss */
 .date {
   float: left;
   width: 15%;
@@ -2941,12 +2972,12 @@ article.homepage-news {
   line-height: 1.2;
 }
 
-/* line 183, ../sass/pages/_homepage.scss */
+/* line 214, ../sass/pages/_homepage.scss */
 .article-body {
   float: left;
   width: 80%;
 }
-/* line 187, ../sass/pages/_homepage.scss */
+/* line 218, ../sass/pages/_homepage.scss */
 .article-body .news-title {
   font-weight: bold;
   font-size: 16px;
@@ -2955,46 +2986,46 @@ article.homepage-news {
   font-family: 'Oxygen', sans-serif;
 }
 
-/* line 199, ../sass/pages/_homepage.scss */
+/* line 230, ../sass/pages/_homepage.scss */
 .bcec-img img {
   margin-bottom: 11px;
   max-width: 100%;
   height: auto;
 }
 
-/* line 205, ../sass/pages/_homepage.scss */
+/* line 236, ../sass/pages/_homepage.scss */
 .about-bcec .padding {
   padding: 0 10px;
 }
 
-/* line 209, ../sass/pages/_homepage.scss */
+/* line 240, ../sass/pages/_homepage.scss */
 .bcec-address {
   margin-bottom: 30px;
 }
-/* line 212, ../sass/pages/_homepage.scss */
+/* line 243, ../sass/pages/_homepage.scss */
 .bcec-address span {
   font-weight: bold;
   font-size: 18px;
 }
 
-/* line 218, ../sass/pages/_homepage.scss */
+/* line 249, ../sass/pages/_homepage.scss */
 #map-canvas {
   width: 100%;
   height: 440px;
 }
 
 @media only screen and (max-width: 1170px) {
-  /* line 230, ../sass/pages/_homepage.scss */
+  /* line 261, ../sass/pages/_homepage.scss */
   .banner .banner-bg img {
     margin-left: -585px;
   }
-  /* line 234, ../sass/pages/_homepage.scss */
+  /* line 265, ../sass/pages/_homepage.scss */
   .banner .container {
     width: 100%;
     height: 448px;
     position: relative;
   }
-  /* line 239, ../sass/pages/_homepage.scss */
+  /* line 270, ../sass/pages/_homepage.scss */
   .banner .container .cta {
     padding: 0;
     margin: 0;
@@ -3006,11 +3037,11 @@ article.homepage-news {
     position: absolute;
     bottom: 0px;
   }
-  /* line 250, ../sass/pages/_homepage.scss */
+  /* line 281, ../sass/pages/_homepage.scss */
   .banner .container .cta .padding {
     padding: 20px;
   }
-  /* line 254, ../sass/pages/_homepage.scss */
+  /* line 285, ../sass/pages/_homepage.scss */
   .banner .container .cta h1 {
     font-size: 30px;
     line-height: 1.2;
@@ -3018,33 +3049,33 @@ article.homepage-news {
     width: 70%;
     margin: 0 auto 15px auto;
   }
-  /* line 262, ../sass/pages/_homepage.scss */
+  /* line 293, ../sass/pages/_homepage.scss */
   .banner .container .cta .conf-dates {
     display: none;
   }
 
-  /* line 269, ../sass/pages/_homepage.scss */
+  /* line 300, ../sass/pages/_homepage.scss */
   .container .about-bcec {
     width: 47%;
   }
 }
 @media only screen and (max-width: 900px) {
-  /* line 276, ../sass/pages/_homepage.scss */
+  /* line 307, ../sass/pages/_homepage.scss */
   .date {
     display: none;
   }
 
-  /* line 280, ../sass/pages/_homepage.scss */
+  /* line 311, ../sass/pages/_homepage.scss */
   .article-body {
     float: none;
     width: 100%;
   }
 
-  /* line 287, ../sass/pages/_homepage.scss */
+  /* line 318, ../sass/pages/_homepage.scss */
   .banner .banner-bg img {
     margin-left: -450px;
   }
-  /* line 291, ../sass/pages/_homepage.scss */
+  /* line 322, ../sass/pages/_homepage.scss */
   .banner .container .cta h1 {
     font-size: 30px;
     line-height: 1.2;
@@ -3054,46 +3085,46 @@ article.homepage-news {
   }
 }
 @media only screen and (max-width: 767px) {
-  /* line 303, ../sass/pages/_homepage.scss */
+  /* line 334, ../sass/pages/_homepage.scss */
   .container .about-bcec {
     width: 100%;
     margin: 40px 0 0 0;
   }
-  /* line 307, ../sass/pages/_homepage.scss */
+  /* line 338, ../sass/pages/_homepage.scss */
   .container .about-bcec .padding {
     padding: 0;
   }
 }
 @media only screen and (max-width: 768px) {
-  /* line 315, ../sass/pages/_homepage.scss */
+  /* line 346, ../sass/pages/_homepage.scss */
   .speaker .padding {
     text-align: center;
   }
 
-  /* line 321, ../sass/pages/_homepage.scss */
+  /* line 352, ../sass/pages/_homepage.scss */
   .banner .banner-bg img {
     margin-left: -384px;
   }
 }
 @media only screen and (max-width: 400px) {
-  /* line 329, ../sass/pages/_homepage.scss */
+  /* line 360, ../sass/pages/_homepage.scss */
   .banner {
     height: auto;
   }
-  /* line 333, ../sass/pages/_homepage.scss */
+  /* line 364, ../sass/pages/_homepage.scss */
   .banner .banner-bg {
     display: none;
   }
-  /* line 337, ../sass/pages/_homepage.scss */
+  /* line 368, ../sass/pages/_homepage.scss */
   .banner .container {
     height: auto;
   }
-  /* line 340, ../sass/pages/_homepage.scss */
+  /* line 371, ../sass/pages/_homepage.scss */
   .banner .container .cta {
     position: static;
     background: linear-gradient(45deg, #ffffff 0%, #ececec 75%) repeat scroll 0% 0% transparent;
   }
-  /* line 344, ../sass/pages/_homepage.scss */
+  /* line 375, ../sass/pages/_homepage.scss */
   .banner .container .cta h1 {
     color: #3a3a3a;
     font-size: 25px;
