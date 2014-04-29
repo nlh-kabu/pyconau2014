@@ -561,6 +561,7 @@ footer {
         margin-top: 40px;
 
         .footer-links {
+            max-width: 140px;
             margin: 30px 20px;
         }
 
@@ -586,7 +587,7 @@ footer {
 }
 
 
-@media only screen and (max-width : 530px) {
+@media only screen and (max-width : 560px) {
 
     footer {
         text-align: center;
@@ -596,6 +597,7 @@ footer {
         .footer-links {
             margin: 10px 0;
             width: 100%;
+            max-width: 100%;
         }
 
     }
