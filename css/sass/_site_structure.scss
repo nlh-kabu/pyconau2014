@@ -99,12 +99,20 @@ legend {
     color: #ff0000;
     background: inherit;
     margin-right: 5px;
+    float: left;
+}
+
+p.label {
+    margin: 0 0 5px 0;
 }
 
 .message-error {
     color: #ff0000;
 }
 
+p label {
+    display: inline;
+}
 
 
 // Typography
