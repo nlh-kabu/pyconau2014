@@ -33,7 +33,6 @@ $purple: #691e9b; //visited links
     text-align: center;
 }
 
-
 // Ribs overrides - changes that cannot be made by changing ribs variables file
 
 .button,
@@ -113,6 +112,11 @@ p.label {
 p label {
     display: inline;
 }
+
+input[type="text"][size="2"]{
+  width: 2em;
+}
+
 
 
 // Typography

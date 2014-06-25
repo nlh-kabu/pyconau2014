@@ -81,6 +81,7 @@
     margin-bottom: 20px;
     margin-top: 0;
     text-indent: 10px;
+    display: block;
 }
 
 .news-titles {
@@ -130,20 +131,18 @@
 
 @media only screen and (max-width : 1170px) {
     .internal-banner .register {
-        margin-right: 30px;
-
-    }
-}
-
-@media only screen and (max-width : 900px) {
-    .internal-banner .register,
-    .white-logo {
         display: none;
 
     }
 
     .internal-banner .conf-dates {
         margin-left: 30px;
+    }
+}
+
+@media only screen and (max-width : 900px) {
+    .white-logo {
+        display: none;
 
     }
 }

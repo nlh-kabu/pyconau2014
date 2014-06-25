@@ -47,11 +47,13 @@ $(document).ready(function(){
     // Enable Carousels
 
     $("#speakers").owlCarousel({
-        items: 4
+        items: 4,
+        autoPlay: 3000
     });
 
     $("#sponsors").owlCarousel({
-        items: 5
+        items: 5,
+        autoPlay: 3000
     });
 
 
