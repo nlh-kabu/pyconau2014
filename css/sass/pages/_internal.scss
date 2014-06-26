@@ -199,3 +199,33 @@
     }
 
 }
+
+// Programme Tables
+
+#programme {
+
+    td, th {
+        text-align: center;
+        font-size: 13px;
+        vertical-align: middle;
+        border-right: 1px solid #ccc;
+
+        i {
+            font-style: italic;
+        }
+    }
+
+    .programme_break {
+        background-color: #ececec;
+    }
+
+    .programme_plenary {
+        background-color: #d7dfe5;
+    }
+
+    .multi {
+        background-color: #d2e7db;
+    }
+
+
+}

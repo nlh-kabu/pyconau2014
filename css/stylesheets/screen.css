@@ -3345,3 +3345,26 @@ article.homepage-news {
     margin-top: 40px;
   }
 }
+/* line 207, ../sass/pages/_internal.scss */
+#programme td, #programme th {
+  text-align: center;
+  font-size: 13px;
+  vertical-align: middle;
+  border-right: 1px solid #ccc;
+}
+/* line 213, ../sass/pages/_internal.scss */
+#programme td i, #programme th i {
+  font-style: italic;
+}
+/* line 218, ../sass/pages/_internal.scss */
+#programme .programme_break {
+  background-color: #ececec;
+}
+/* line 222, ../sass/pages/_internal.scss */
+#programme .programme_plenary {
+  background-color: #d7dfe5;
+}
+/* line 226, ../sass/pages/_internal.scss */
+#programme .multi {
+  background-color: #d2e7db;
+}
