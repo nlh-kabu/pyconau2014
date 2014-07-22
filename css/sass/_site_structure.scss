@@ -175,6 +175,25 @@ body {
     color: red;
 }
 
+#flash {
+    text-align: center;
+    color: $dark-grey;
+    padding: 0;
+    background-color: $light-grey;
+    border-bottom: 1px solid $grey-border;
+
+    .message {
+        opacity: 1.0 !important;
+    }
+
+    p {
+        opacity: 1.0;
+        font-weight: bold;
+        padding: 10px;
+        margin: 0;
+    }
+}
+
 header {
     border-bottom: 2px solid $grey-border;
     position: relative;
